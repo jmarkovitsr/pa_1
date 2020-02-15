@@ -1,0 +1,28 @@
+setwd('C:/Users/spanport/Desktop/Spring20/R') # run with Ctrl + Enter
+library(tidyverse)  # ggplot2, dplyr, tidyr, readr, purr, tiblle, stringr, forcats
+
+
+
+df4 = read_delim('L2SPAN.csv', delim = ',')
+View(df4)
+
+df4 %>% # voy a seleccionar algo en una base de datos se tiene que run juntas
+  select( "FCTASG " )
+
+df4 %>%
+  group_by(FCTASG) %>%
+  summarise(media = mean(GROUP), de = sd(GROUP), n = n())
+df1 %>%
+  group_by(besasp) %>%
+  summarise(media = mean(parent_score_bi), de = sd(parent_score_bi), n = n())
+# regresion : lo que intento predecir es una variable numerica y = numerica 
+# cuando y es discreta (categorico) el modelo puede ser logit 
+
+mylogit = glm(besasp ~ parent_score_mono, data = df1, family = "binomial")
+summary(mylogit)
+
+mylogit = glm(FCTASG ~ LIKERT, data = df4, family = "binomial")
+summary(mylogit)
+
+
+
