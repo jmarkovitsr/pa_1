@@ -1,25 +1,25 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1581794741387.000,
+    "created" : 1581957627266.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1611027885",
-    "id" : "B2B35F63",
-    "lastKnownWriteTime" : 1581795371,
-    "last_content_update" : 1581795371689,
+    "hash" : "0",
+    "id" : "FBEBCF62",
+    "lastKnownWriteTime" : 1581964073,
+    "last_content_update" : 1581964098891,
     "path" : "C:/Users/spanport/Desktop/pa_1/README.Rmd",
     "project_path" : "README.Rmd",
     "properties" : {
-        "cursorPosition" : "7,3",
-        "scrollLine" : "0",
+        "cursorPosition" : "35,0",
+        "scrollLine" : "5",
         "tempName" : "Untitled1"
     },
     "read_only" : false,
     "read_only_alternatives" : [
     ],
-    "relative_order" : 1,
+    "relative_order" : 3,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "r_markdown"

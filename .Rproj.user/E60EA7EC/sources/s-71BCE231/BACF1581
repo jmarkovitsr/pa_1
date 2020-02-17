@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1581956639711.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "BACF1581",
+    "lastKnownWriteTime" : 1581794540,
+    "last_content_update" : 1581957387316,
+    "path" : "C:/Users/spanport/Desktop/Spring20/R/data_L2solo.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "25,2",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -3,11 +3,12 @@ library(tidyverse)  # ggplot2, dplyr, tidyr, readr, purr, tiblle, stringr, forca
 
 
 
-df4 = read_delim('L2SPAN.csv', delim = ',')
+
+df4 = read_delim('L2SPAN.csv', delim = ';')
 View(df4)
 
 df4 %>% # voy a seleccionar algo en una base de datos se tiene que run juntas
-  select( "FCTASG " )
+  select( "FCTASG" )
 
 df4 %>%
   group_by(FCTASG) %>%
@@ -18,11 +19,9 @@ df1 %>%
 # regresion : lo que intento predecir es una variable numerica y = numerica 
 # cuando y es discreta (categorico) el modelo puede ser logit 
 
-mylogit = glm(besasp ~ parent_score_mono, data = df1, family = "binomial")
-summary(mylogit)
 
-mylogit = glm(FCTASG ~ LIKERT, data = df4, family = "binomial")
-summary(mylogit)
+mylogit_ASG = glm(FCTASG ~ LIKERT, data = df4, family = "binomial")
+summary(mylogit_ASG)
 
-
+# 
 
