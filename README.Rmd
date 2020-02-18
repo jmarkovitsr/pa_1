@@ -35,4 +35,10 @@ f0_o_stressed - f0_o_unstressed
 
 
 
-```
+## comments
+
+1. the duration of the stressed segment and the duration of the streesed vowel was longer on miliseconds than the unestressed segment and vowel
+
+2. the stressed vowel has lower intensity meassured by dB than the unstressed vowel
+
+3. the f0 of the stressed vowel was lower on Hz than the unstressed vowel 
